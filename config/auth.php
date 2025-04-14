@@ -36,9 +36,10 @@ return [
     */
 
     'guards' => [
-        'web' => [
+        //...
+        'passenger' => [
             'driver' => 'session',
-            'provider' => 'users',
+            'provider' => 'passengers',
         ],
     ],
 
@@ -60,15 +61,11 @@ return [
     */
 
     'providers' => [
-        'users' => [
+        //...
+        'passengers' => [
             'driver' => 'eloquent',
-            'model' => env('AUTH_MODEL', App\Models\User::class),
+            'model' => App\Models\Passenger::class,
         ],
-
-        // 'users' => [
-        //     'driver' => 'database',
-        //     'table' => 'users',
-        // ],
     ],
 
     /*
