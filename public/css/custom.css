@@ -1,0 +1,22 @@
+.hero-section {
+    background-color: #157347;
+    border-radius: 10px;
+    padding: 50px 30px;
+    color: white;
+}
+
+.search-box select,
+.search-box input {
+    height: 45px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.btn-primary {
+    background-color: #0d3b66;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #08466b;
+}
